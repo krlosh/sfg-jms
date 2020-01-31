@@ -17,7 +17,7 @@ public class SfgJmsApplication {
 			.addAcceptorConfiguration("invm", "vm://0")
 		);
 		server.start();
-		
+
 		SpringApplication.run(SfgJmsApplication.class, args);
 	}
 
